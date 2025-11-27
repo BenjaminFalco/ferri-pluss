@@ -1,12 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import BoschPromo from "@/components/BoschPromo";
+import Categories from "@/components/Categories";
+import WeeklyOffers from "@/components/WeeklyOffers";
+import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
+import Location from "@/components/Location";
+import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <Hero />
+      <About />
+      <BoschPromo />
+      <Categories />
+      <WeeklyOffers />
+      <Services />
+      <Testimonials />
+      <Location />
+      <FAQ />
+      <FinalCTA />
+      <Footer />
     </div>
   );
 };
