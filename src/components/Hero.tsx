@@ -39,7 +39,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            FERRI+ FERRETERÍA CHILLÁN
+            FERRI +
           </motion.h1>
           
           <motion.p 

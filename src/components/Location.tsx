@@ -9,7 +9,7 @@ const Location = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const handleMaps = () => {
-    window.open("https://maps.google.com/?q=Camino+Las+Mariposas+P.1B+KM7+Chillán", "_blank");
+window.open("https://maps.app.goo.gl/vi19CZJbm3wT7NnM7", "_blank");
   };
 
   const handleCall = () => {
