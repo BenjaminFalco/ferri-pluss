@@ -39,7 +39,6 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <div className="text-3xl font-black text-primary">FERRI+</div>
             <div className="hidden md:block text-sm text-white/80">
-              Ferretería Chillán
             </div>
           </div>
 
